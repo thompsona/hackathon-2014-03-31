@@ -1,0 +1,93 @@
+* {
+  text-align: center;
+  font-family: 'The Girl Next Door', cursive;
+}
+
+html { 
+  background-color: #eee;
+  height:768px;
+  background-image: radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+  background-image: -o-radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+  background-image: -ms-radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+  background-image: -moz-radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+  background-image: -webkit-radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+}
+#vis {
+  width:300;
+  height:300;
+}
+body { 
+  background-image: radial- gradient(center center, circle  cover, #ffeda3, #ffc800); 
+}
+#title {
+  text-align: center;
+}
+
+
+
+/*NOTES*/
+
+#pitch_view {
+  font-size: 100px;
+  width: 100%;
+  height: 130px;
+/*  border: 10px solid black ;*/
+  position: relative;
+}
+
+.pitch {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+#C {
+  visibility: hidden;
+  opacity: 0.5;
+}
+#C-sharp-D-flat {
+  visibility: hidden;
+  opacity: 0.5;
+}
+#D {
+  visibility: hidden;
+  opacity: 0.5;
+}
+#D-sharp-E-flat {
+  visibility: hidden;
+  opacity: 0.5;
+}
+#E {
+  visibility: hidden;
+  opacity: 0.5;
+}
+#F {
+  visibility: hidden;
+  opacity: 0.5;
+}
+#F-sharp-G-flat {
+  visibility: hidden;
+  opacity: 0.5;
+}
+#G {
+  visibility: hidden;
+  opacity: 0.5;
+}
+#G-sharp-A-flat {
+  visibility: hidden;
+  opacity: 0.5;
+}
+#A {
+  visibility: visible;
+  opacity: 0.5;
+}
+#A-sharp-B-flat {
+  visibility: hidden;
+  opacity: 0.5;
+}
+#B {
+  visibility: hidden;
+  opacity: 0.5;
+}
+

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+        <link rel='stylesheet' href='style.css'>
+        <!-- <input type="file" accept="audio/*;capture=microphone"> -->
+        <!--<script src="http://cwilso.github.io/AudioContext-MonkeyPatch/AudioContextMonkeyPatch.js"></script>-->
+        <script type='text/javascript' src='audio.js'></script>
+        <script type='text/javascript' src='audio_helpers.js'></script>
+        <script type='text/javascript' src='audio_render.js'></script>
+    </head>
+    <body>
+
+      <span id='title'>Guitar Tuner</span>
+      <p>pluck the string and match the tone</p>
+      <div id='pitch_view'>
+        <div id='A' class='pitch'>A</div>
+        <div id='A-sharp-B-flat' class='pitch'>A#/B♭</div>
+        <div id='B' class='pitch'>B</div>
+        <div id='C' class='pitch'>C</div>
+        <div id='C-sharp-D-flat' class='pitch'>C#/D♭</div>
+        <div id='D' class='pitch'>D</div>
+        <div id='D-sharp-E-flat' class='pitch'>D#/E♭</div>
+        <div id='E' class='pitch'>E</div>
+        <div id='F' class='pitch'>F</div>
+        <div id='F-sharp-G-flat' class='pitch'>F#/G♭</div>
+        <div id='G' class='pitch'>G</div>
+        <div id='G-sharp-A-flat' class='pitch'>G#/A♭</div>
+      </div>
+      <canvas id='vis'></canvas>
+    </body>
+<html>
